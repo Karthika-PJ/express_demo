@@ -1,8 +1,7 @@
 language: node_js
 node_js:
-- '0.10'
-deploy:
-  provider: heroku
-  app: express-tutorial
-  api_key:
-    secure: 7d48197f-876a-4f1f-a3d5-364e0da100ed
+  - 6.9.5
+  deploy:
+  provider: engineyard
+  email: karthikapj12@gmail.com
+  password: Sreekrishna@001
